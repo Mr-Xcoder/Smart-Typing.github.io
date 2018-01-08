@@ -2,12 +2,20 @@
 <html lang='en'>
 	<head>
     <title>Smart Keyboard</title>
+    <style>
+    	h1, form {
+        	font-family: "Courier New", Courier, monospace;
+        }
+        body {
+        	color: white; background-color: #202020; font-family: Georgia;
+        }
+    </style>
     </head>
-	<body style="color: white; background-color: #202020; font-family: Georgia;">
-    	<center><h1 style="margin-top:20vh;">Jelly Smart Keyboard</h1><center>
+	<body>
+    	<center><h1 style="margin-top:20vh;">Jelly Smart Keyboard</h1></center>
     	<form style="margin-top: 10vh;" oninput="outputfield.value=convert(inputfield.value)">
 		<center style="margin-bottom:30px;"><input style="width:40vw; text-align: center; height: 5vh;" type="text" id="inputfield" placeholder="Enter the text here"></center>
-		<font size="5"><output name="outputfield" for="inputfield"></output><font size="5">
+		<center><output name="outputfield" for="inputfield"></output></center>
 	</form>
     </body>
     <script>
@@ -21,4 +29,3 @@
 	}
 	</script>
 </html>
-
