@@ -3,6 +3,17 @@
 	<head>
     <title>Smart Keyboard</title>
     <style>
+    	a {
+        	color: green;
+            text-decoration: none;
+        }
+        a:hover {
+   			text-decoration: underline;
+		}
+
+		a:active {
+    		text-decoration: underline;
+		}
         body, input {
         	color: white;
             background-color: #202020;
@@ -17,6 +28,7 @@
 		<center style="margin-bottom:30px;"><input style="width:40vw; text-align: center; height: 5vh;" type="text" id="inputfield" placeholder="Enter the text here"></center>
 		<center><output name="outputfield" for="inputfield"></output></center>
 	</form>
+	<p style="position: fixed; bottom: 0; margin-left: 10px;"><font size=2>Uses these <a href="https://github.com/cairdcoinheringaahing/JHTBot/blob/master/ascii_jelly.py">replacement codes</a>. View this project on <a href="https://github.com/Mr-Xcoder/Smart-Typing.github.io">GitHub</a>.</font></p>
     </body>
     <script>
 	function convert(str){
